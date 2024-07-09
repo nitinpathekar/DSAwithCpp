@@ -1,0 +1,5 @@
+body{
+    color :red
+}git add .
+git commit -m "Resolve merge conflicts"
+git push origin main
