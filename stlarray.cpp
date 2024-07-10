@@ -9,7 +9,12 @@ int main(){
     }
     cout<<a[1];
     cout<<a.at(1);
-
+    cout<<a.front()<<endl;
+    cout<<a.back()<<endl;
+    cout<<a.empty()<<endl;
+    for(int i=0;i<size;i++){
+        cout<<a[i];
+    }
 
     return 0;
 }
