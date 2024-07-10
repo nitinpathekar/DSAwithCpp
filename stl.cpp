@@ -7,7 +7,9 @@ int main(){
     for(int i=0;i<size;i++){
         cout<<a[i];
     }
-    
+    cout<<a[1];
+    cout<<a.at(1);
+
 
     return 0;
 }
