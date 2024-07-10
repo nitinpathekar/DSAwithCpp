@@ -12,6 +12,11 @@ int main(){
 
     cout<<"Capacity: "<<v.capacity()<<endl;
     v.push_back(2);
+    cout<<v.front();
+    cout<<v.back();
+    v.clear();
+     cout<<"Capacity: "<<v.capacity()<<endl;
+     cout<<"size: "<<v.size()<<endl;
     
     return 0;
 }
