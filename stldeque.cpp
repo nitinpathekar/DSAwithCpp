@@ -9,5 +9,9 @@ int main(){
     for (int i=0;i<n;i++){
         cout<<d[i]<<endl;
     }
+    d.erase(d.begin(),d.begin()+1);
+        for (int i=0;i<n;i++){
+        cout<<d[i]<<endl;
+    }
     return 0;
 }
